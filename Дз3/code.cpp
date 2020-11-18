@@ -42,9 +42,9 @@ int main()
 {
     unsigned int seed = 84;
     srand(seed);
-    int size_of_array = (int)(rand() % 1000) + 1000;
+    int size_of_array = (int)(rand() % 200) + 1000;
     std::cout << "size = " << size_of_array << "\n";
-    int X[size_of_array], Y[size_of_array];
+    int X[size_of_array+10], Y[size_of_array+10];
     A = X;
     B = Y;
     for (int i = 0; i < size_of_array+5; ++i)
