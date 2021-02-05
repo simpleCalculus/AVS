@@ -13,7 +13,7 @@ include 'win32a.inc'
 ;--------------------------------------------------------------------------
 section '.data' data readable writable
 
-        strVecSize   db 'enter the size of the array A ', 10, 0
+        strVecSize   db 'enter the size of the array A in range [1;50]', 10, 0
         strIncorSize db 'incorrect value', 10, 0
         strVecA db 10, 'vector A:', 10, 0
         strVecB db 10, 'vector B:', 10, 0
